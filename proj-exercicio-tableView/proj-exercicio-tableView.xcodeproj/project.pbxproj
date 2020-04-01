@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		528226B2243530E300F23619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528226B1243530E300F23619 /* ViewController.swift */; };
 		52BCADBF2433B8350064927D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCADBE2433B8350064927D /* AppDelegate.swift */; };
 		52BCADC12433B8350064927D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCADC02433B8350064927D /* SceneDelegate.swift */; };
-		52BCADC32433B8350064927D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCADC22433B8350064927D /* ViewController.swift */; };
+		52BCADC32433B8350064927D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCADC22433B8350064927D /* TableViewController.swift */; };
 		52BCADC62433B8350064927D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BCADC42433B8350064927D /* Main.storyboard */; };
 		52BCADC82433B8370064927D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BCADC72433B8370064927D /* Assets.xcassets */; };
 		52BCADCB2433B8370064927D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BCADC92433B8370064927D /* LaunchScreen.storyboard */; };
@@ -35,10 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		528226B1243530E300F23619 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52BCADBB2433B8350064927D /* proj-exercicio-tableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "proj-exercicio-tableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BCADBE2433B8350064927D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52BCADC02433B8350064927D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52BCADC22433B8350064927D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52BCADC22433B8350064927D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		52BCADC52433B8350064927D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52BCADC72433B8370064927D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52BCADCA2433B8370064927D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,11 +103,12 @@
 			children = (
 				52BCADBE2433B8350064927D /* AppDelegate.swift */,
 				52BCADC02433B8350064927D /* SceneDelegate.swift */,
-				52BCADC22433B8350064927D /* ViewController.swift */,
+				52BCADC22433B8350064927D /* TableViewController.swift */,
 				52BCADC42433B8350064927D /* Main.storyboard */,
 				52BCADC72433B8370064927D /* Assets.xcassets */,
 				52BCADC92433B8370064927D /* LaunchScreen.storyboard */,
 				52BCADCC2433B8370064927D /* Info.plist */,
+				528226B1243530E300F23619 /* ViewController.swift */,
 			);
 			path = "proj-exercicio-tableView";
 			sourceTree = "<group>";
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52BCADC32433B8350064927D /* ViewController.swift in Sources */,
+				52BCADC32433B8350064927D /* TableViewController.swift in Sources */,
 				52BCADBF2433B8350064927D /* AppDelegate.swift in Sources */,
+				528226B2243530E300F23619 /* ViewController.swift in Sources */,
 				52BCADC12433B8350064927D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,20 +1,23 @@
-//
-//  ViewController.swift
-//  proj-exercicio-tableView
-//
-//  Created by Mohamed on 31/03/20.
-//  Copyright © 2020 Mohamed. All rights reserved.
-//
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nomeEstado: UILabel!
+    @IBOutlet weak var fotoEstado: UIImageView!
+    
+    @IBOutlet weak var descrição: UILabel!
+    
+    var aDescricao : String = ""
+    var aFoto = UIImage()
+    var oNome : String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        nomeEstado.text = oNome
+        fotoEstado.image = aFoto
+        descrição.text = aDescricao
     }
-
+    
 
 }
-
